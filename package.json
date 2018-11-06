@@ -6,8 +6,17 @@
   "scripts": {
     "build": "rollup -c"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "License",
+    "index.js",
+    "CommaFormattedNumber.vue"
+  ],
   "keywords": [
-    "vue"
+    "vue",
+    "comma-formatted",
+    "input"
   ],
   "author": "Revath S Kumar <rsk@revathskumar.com> (http://blog.revathskumar.com/)",
   "license": "MIT",
@@ -19,5 +28,9 @@
     "rollup-plugin-commonjs": "^9.2.0",
     "rollup-plugin-node-resolve": "^3.4.0",
     "rollup-plugin-vue2": "^0.8.0"
+  },
+  "repository": "revathskumar/vue-comma-formatted-number",
+  "bugs": {
+    "url": "https://github.com/revathskumar/vue-comma-formatted-number/issues"
   }
 }
