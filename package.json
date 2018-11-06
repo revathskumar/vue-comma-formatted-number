@@ -1,0 +1,23 @@
+{
+  "name": "vue-comma-formatted-number",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/comma-formatted-number.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "Revath S Kumar <rsk@revathskumar.com> (http://blog.revathskumar.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "accounting-js": "^1.1.1"
+  },
+  "devDependencies": {
+    "rollup": "^0.67.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-vue2": "^0.8.0"
+  }
+}
